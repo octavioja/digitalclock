@@ -37,20 +37,20 @@
 
             var defaults = {
                 imagesPath: '/dashboard/jdigiclock/images/',
-                lang: 'en',
+                lang: 'fr',
                 am_pm: false,
                 weatherLocationCode: '751170', // Meteofrance city code
                 weatherUpdate: 59,
                 svrOffset: 0   
             };
 
-             regional = [];
+            var regional = [];
             regional['fr'] = {
                 monthNames: ['Jan', 'Fév', 'Mar', 'Avr', 'Mai', 'Juin', 'Juil', 'Août', 'Sept', 'Oct', 'Nov', 'Déc'],
                 dayNames: ['Dim', 'Lun', 'Mar', 'Mer', 'Jeu', 'Ven', 'Sam'],
                 lang: 'fr'
             }
-           var regional = [];
+            regional = [];
             regional['en'] = {
                 monthNames: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
                 dayNames: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
